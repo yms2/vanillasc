@@ -8,7 +8,7 @@ function randomNumber(){//랜덤 숫자 생성
 
 function IMGselect(randomNum){
     const image = new Image();
-    image.src = `../images/${randomNum}.jpg`
+    image.src = `./images/${randomNum}.jpg`
     image.className = 'bgIMG';
     body.prepend(image);
 }//랜덤 숫자를 넣고 이미지 경로를 뽑아 body에 추가.
